@@ -1,0 +1,16 @@
+@page
+{
+  size:A4;
+  margin: 0;
+}
+
+#print-btn
+{
+  display: none;
+  visibility: none;
+  background-color: #004e99;
+}
+#heads
+{
+  background-color: #004e99;
+}

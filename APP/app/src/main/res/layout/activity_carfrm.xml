@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/b2"
+    android:layout_height="match_parent"
+    tools:context=".carfrm">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@drawable/header1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="84dp"
+            android:layout_height="70dp"
+            app:layout_constraintBottom_toBottomOf="@+id/view2"
+            app:layout_constraintEnd_toEndOf="@+id/view2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/view2"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/logo1" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Vehicular Accident"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1600dp"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView25">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="What To Do During Vehicular Accidents"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="Minor Accidents" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:text="1. Safety First" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="- The principal concern during a car accident is the safety and well-being of everyone involved. Alight from your vehicle and take pictures of the situation whatever happens."
+                android:textAlignment="viewStart"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="2. Do Not Cause Traffic" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="- After that, the drivers should pull their vehicles out of the road immediately so that they're both clear of oncoming traffic. Use flares or cones, if you have them, to alert other drivers, and turn on your hazard lights so that you can be more visible. Call the nearest hospital if anyone has been hurt. Do not leave the scene of an accident--even a minor one--until everything has been resolved to everyone's satisfaction."
+                android:textAlignment="viewStart"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="3. Interacting with the Other Driver" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="- Once the initial shock wears off and it's apparent that no one's been seriously hurt, tempers may flare. Refrain from losing your temper. Get the other driver's name, address, contact information and insurance details, and provide the same for him (this is why it's a good idea to carry your insurance information in your vehicle). See if an amicable settlement can be made. If not, call the Authority, and ask for traffic enforcers/investigators to be present on the scene immediately. Remain at the scene until the investigators arrive and tell you that you can go."
+                android:textAlignment="viewStart"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="4. Insurance and Repairs" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="- With the basics taken cared of, it's time to see about the damage to your car and how you can go about getting it fixed. If you can, call your insurance agent immediately while you're still at the scene and ask him about repairs. Keep in touch with the traffic investigators, and file a report on the accident if they ask."
+                android:textAlignment="viewStart"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="Major Accidents" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:text="1. Check if anyone is hurt." />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="- Check yourself and your passengers to see if anyone has been injured. If someone is hurt, summon medical assistance right away, and ask for a medical team and a traffic investigator to go to the scene."
+                android:textAlignment="viewStart"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:text="2. Make sure to take pictures of the accident." />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="- Once your condition and that of your passengers has been established, take pictures. This is the best arguing tool that you can have. Photos showing the vehicles and the surrounding area can help get you out of a bind if the other person denies what happened. Make sure to take pictures of both vehicles, (including license plates), and the area in which the accident occurred."
+                android:textAlignment="viewStart"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:text="3. Move your vehicle off to the side of the road if possible." />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="- It is unsafe to continue to sit in traffic and a two-car fender bender could turn into a multiple-car pileup very quickly. If you are unable to move your vehicle, make sure to stay in the area of the incident until the investigators arrives."
+                android:textAlignment="viewStart"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:text="4. Let the investigator take command of the situation, and institute measures to prevent the accident from getting worse." />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="- When the police arrive, you will want to get their names so that you can refer back them later when reviewing the accident details. Additionally, you shouldn't rely solely on the police report to tell your side of the story."
+                android:textAlignment="viewStart"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:text="5. Exchange information with the other driver." />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="- If involved in an accident with another driver, make sure to exchange the following information with that driver: name, address, phone number, insurance company, policy number, driver's license number and license plate number. You also should write a description of each vehicle, including the make, model, year and color."
+                android:textAlignment="viewStart"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:text="6. Contact your insurance company and know what your policy covers." />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="- After exchanging information with the other driver, you next move should be to contact your insurance company to let them know that you've been in an accident and to give them your version of the events. Additionally, you should be aware of what exactly your policy covers. You might find out that the actual cost to repair your car manageable enough to avoid going through your insurer and incurring a premium hike."
+                android:textAlignment="viewStart"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:text="7. File an accident report with the police department." />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="- Having a police report on hand can assist in speeding up the insurance claims process. You can file a report at your local police station."
+                android:textAlignment="viewStart"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="100dp"
+                android:text="REFERENCES" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="TMMDA. (2019, April 11). Govph. What To Do During Vehicular Accidents. Retrieved June 15, 2022, from https://mmda.gov.ph/20-faq/300-what-to-do-during-vehicular-accidents.html " />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

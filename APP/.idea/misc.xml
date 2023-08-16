@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/drawable/border.xml" value="0.387" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/drawable/border_button.xml" value="0.387" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/drawable/borderheader.xml" value="0.387" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_announcefrm.xml" value="0.31765711842667804" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_carfrm.xml" value="0.31765711842667804" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_dashmain.xml" value="0.33" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_dashreq.xml" value="0.33" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_earthfrm.xml" value="0.33" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_evacfrm.xml" value="0.31765711842667804" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_firefrm.xml" value="0.31765711842667804" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_floodfrm.xml" value="0.31765711842667804" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_healthfrm.xml" value="0.31765711842667804" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_help_option.xml" value="0.31765711842667804" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_main2.xml" value="0.32587719298245615" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_main3.xml" value="0.4129763130792997" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_main4.xml" value="0.3185121846943138" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_main5.xml" value="0.3185121846943138" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_monitor_req.xml" value="0.3185121846943138" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_officefrm.xml" value="0.31765711842667804" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_personfrm.xml" value="0.31765711842667804" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_reg_frm.xml" value="0.33" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_regfrm.xml" value="0.33" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_splash.xml" value="0.3185121846943138" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/layout/activity_update_image.xml" value="0.3185121846943138" />
+        <entry key="..\:/xampp/htdocs/PROJECT/APP/app/src/main/res/xml/network_security_config.xml" value="0.22530996152201796" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
