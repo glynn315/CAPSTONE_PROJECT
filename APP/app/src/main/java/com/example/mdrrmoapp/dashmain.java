@@ -39,7 +39,7 @@ public class dashmain extends AppCompatActivity {
         im  = findViewById(R.id.imageView11);
 
 
-        String apikey = "f094323029b99e01350d96c4c4f01cce";
+        String apikey = "API Key";
         String url = "https://api.openweathermap.org/data/2.5/weather?zip=9508,PH&appid=f094323029b99e01350d96c4c4f01cce";
         RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
